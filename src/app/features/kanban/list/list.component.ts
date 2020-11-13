@@ -20,12 +20,13 @@ class JobList {
 })
 export class ListComponent implements OnInit {
 
-  jobLists: JobList[];
 
   constructor(
     private jobListService: JobListService,
     private dialog: MatDialog
-  ) {}
+  ) { }
+
+  jobLists: JobList[];
 
   ngOnInit() {
     this.jobLists = this.jobListService.getJobLists();
