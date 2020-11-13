@@ -6,10 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 exports.__esModule = true;
-exports.ListComponent = void 0;
+exports.ListComponent = exports.JobList = void 0;
 var core_1 = require("@angular/core");
 var drag_drop_1 = require("@angular/cdk/drag-drop");
-var dialog_confirm_delete_component_1 = require("../dialog-confirm-delete/dialog-confirm-delete.component");
+var dialog_confirm_delete_component_1 = require("../../../shared/dialog-confirm-delete/dialog-confirm-delete.component");
+var JobList = /** @class */ (function () {
+    function JobList() {
+    }
+    return JobList;
+}());
+exports.JobList = JobList;
 var ListComponent = /** @class */ (function () {
     function ListComponent(jobListService, dialog) {
         this.jobListService = jobListService;
