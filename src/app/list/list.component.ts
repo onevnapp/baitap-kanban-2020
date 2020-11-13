@@ -47,7 +47,7 @@ export class ListComponent implements OnInit {
 
   deleteJob(jobIndex: number, listIndex: number) {
     const dialogRef = this.dialog.open(DialogConfirmDeleteComponent, {
-      width: '250px',
+      width: '500px',
       data: { name: 'job' },
     });
 
@@ -60,7 +60,7 @@ export class ListComponent implements OnInit {
 
   deleteList(listIndex: number) {
     const dialogRef = this.dialog.open(DialogConfirmDeleteComponent, {
-      width: '250px',
+      width: '500px',
       data: { name: 'list' },
     });
 
