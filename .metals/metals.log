@@ -17,3 +17,16 @@ Nov 08, 2020 9:54:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTraceNotification
 Nov 08, 2020 9:58:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.11.08 22:24:35 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\Tommy\Desktop\angular-kanban-board' for client vscode.
+2020.11.08 22:24:37 INFO  time: initialize in 1.25s
+2020.11.08 22:24:43 WARN  no build tool detected in workspace 'C:\Users\Tommy\Desktop\angular-kanban-board'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Nov 08, 2020 10:39:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.11.09 22:44:16 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\Tommy\Desktop\angular-kanban-board' for client vscode.
+2020.11.09 22:44:17 INFO  time: initialize in 0.95s
+2020.11.09 22:44:22 WARN  no build tool detected in workspace 'C:\Users\Tommy\Desktop\angular-kanban-board'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 22:48:04 INFO  shutting down Metals
+2020.11.13 21:03:31 INFO  Started: Metals version 0.9.5 in workspace 'C:\Users\Tommy\Desktop\angular-kanban-board' for client vscode.
+2020.11.13 21:03:31 INFO  time: initialize in 0.7s
+2020.11.13 21:03:33 WARN  Build server is not auto-connectable.
+2020.11.13 21:03:33 WARN  no build tool detected in workspace 'C:\Users\Tommy\Desktop\angular-kanban-board'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
