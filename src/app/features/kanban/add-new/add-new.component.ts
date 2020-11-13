@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { JobListService } from '../services/job-list.service';
+import { JobListService } from '../services/list.service';
 
 @Component({
   selector: 'app-add-new',
