@@ -6,7 +6,7 @@ import {
 } from '@angular/cdk/drag-drop';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogConfirmDeleteComponent } from '../../../shared/dialog-confirm-delete/dialog-confirm-delete.component';
-import { JobListService } from '../services/job-list.service';
+import { JobListService } from '../services/list.service';
 
 class JobList {
   name: string;
