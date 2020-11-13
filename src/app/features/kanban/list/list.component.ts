@@ -8,7 +8,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { DialogConfirmDeleteComponent } from '../../../shared/dialog-confirm-delete/dialog-confirm-delete.component';
 import { JobListService } from '../services/job-list.service';
 
-export class JobList {
+class JobList {
   name: string;
   jobs: string[];
 }
@@ -19,11 +19,12 @@ export class JobList {
   styleUrls: ['./list.component.css'],
 })
 export class ListComponent implements OnInit {
+
   jobLists: JobList[];
 
   constructor(
     private jobListService: JobListService,
-    public dialog: MatDialog
+    private dialog: MatDialog
   ) {}
 
   ngOnInit() {
@@ -75,3 +76,5 @@ export class ListComponent implements OnInit {
     });
   }
 }
+
+
