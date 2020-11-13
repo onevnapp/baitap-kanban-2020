@@ -1,30 +1,18 @@
-import { Injectable } from "@angular/core";
-import { JobList } from "src/app/job-list.model";
+import { Injectable } from '@angular/core';
 
+export class JobList {
+  name: string;
+  jobs: string[];
+}
 @Injectable({
-  providedIn: "root",
+  providedIn: 'root',
 })
 export class JobListService {
-  jobLists: JobList[] = [
-    {
-      name: "To do",
-      jobs: ["Get to work", "Pick up groceries", "Go home", "Fall asleep"],
-    },
-    {
-      name: "Doing",
-      jobs: [
-        "Get up",
-        "Brush teeth",
-        "Take a shower",
-        "Check e-mail",
-        "Walk dog",
-      ],
-    },
-  ];
+  jobLists: JobList[] = [];
 
   updateLocalStorage(): void {
     if (window && window.localStorage) {
-      window.localStorage.setItem("jobLists", JSON.stringify(this.jobLists));
+      window.localStorage.setItem('jobLists', JSON.stringify(this.jobLists));
     }
   }
 
